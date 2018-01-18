@@ -46,13 +46,14 @@ demo screenshot like this, but you may think a while, why I pass char value `'3'
 <img src="https://user-images.githubusercontent.com/17949980/35085081-f940124e-fc61-11e7-9504-28e1303923c5.png">
 
 
-##Feature
+## Feature
 - Auto type checking 
-   
+
    if you pass an CGPoint type value to a method paramater which is declared innt type, assertion is invoked, you'll see exception logs in your Xcode console something like this.
-   <img src="https://user-images.githubusercontent.com/17949980/35085567-3ba6a2b8-fc64-11e7-9f0d-d39c0bf3b097.png">
    
 - More than two parameters can be allowed
  
 - Any returnValue
+
+   <img src="https://user-images.githubusercontent.com/17949980/35085567-3ba6a2b8-fc64-11e7-9f0d-d39c0bf3b097.png">
 
