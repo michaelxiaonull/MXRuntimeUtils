@@ -13,6 +13,9 @@
 		4CF448F9201067A90065611A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF448F8201067A90065611A /* Assets.xcassets */; };
 		4CF448FC201067A90065611A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF448FA201067A90065611A /* LaunchScreen.storyboard */; };
 		4CF448FF201067A90065611A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF448FE201067A90065611A /* main.m */; };
+		4CF4490A2010681F0065611A /* MXRuntimeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF449062010681F0065611A /* MXRuntimeUtils.m */; };
+		4CF4490B2010681F0065611A /* MXRuntimeUtils+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF449092010681F0065611A /* MXRuntimeUtils+Extension.m */; };
+		4CF4490E201068720065611A /* NSObject+HandleNullValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4490D201068720065611A /* NSObject+HandleNullValue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		4CF448FB201067A90065611A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CF448FD201067A90065611A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CF448FE201067A90065611A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CF449062010681F0065611A /* MXRuntimeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRuntimeUtils.m; sourceTree = "<group>"; };
+		4CF449072010681F0065611A /* MXRuntimeUtils+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MXRuntimeUtils+Extension.h"; sourceTree = "<group>"; };
+		4CF449082010681F0065611A /* MXRuntimeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRuntimeUtils.h; sourceTree = "<group>"; };
+		4CF449092010681F0065611A /* MXRuntimeUtils+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MXRuntimeUtils+Extension.m"; sourceTree = "<group>"; };
+		4CF4490C201068720065611A /* NSObject+HandleNullValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HandleNullValue.h"; sourceTree = "<group>"; };
+		4CF4490D201068720065611A /* NSObject+HandleNullValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HandleNullValue.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +51,7 @@
 		4CF448E3201067A90065611A = {
 			isa = PBXGroup;
 			children = (
+				4CF449052010681F0065611A /* MXRuntimeUtils */,
 				4CF448EE201067A90065611A /* MXRuntimeUtils */,
 				4CF448ED201067A90065611A /* Products */,
 			);
@@ -69,6 +79,20 @@
 				4CF448FE201067A90065611A /* main.m */,
 			);
 			path = MXRuntimeUtils;
+			sourceTree = "<group>";
+		};
+		4CF449052010681F0065611A /* MXRuntimeUtils */ = {
+			isa = PBXGroup;
+			children = (
+				4CF449082010681F0065611A /* MXRuntimeUtils.h */,
+				4CF449062010681F0065611A /* MXRuntimeUtils.m */,
+				4CF449072010681F0065611A /* MXRuntimeUtils+Extension.h */,
+				4CF449092010681F0065611A /* MXRuntimeUtils+Extension.m */,
+				4CF4490C201068720065611A /* NSObject+HandleNullValue.h */,
+				4CF4490D201068720065611A /* NSObject+HandleNullValue.m */,
+			);
+			name = MXRuntimeUtils;
+			path = MXRuntimeUtils/MXRuntimeUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +166,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CF4490E201068720065611A /* NSObject+HandleNullValue.m in Sources */,
 				4CF448F4201067A90065611A /* ViewController.m in Sources */,
+				4CF4490A2010681F0065611A /* MXRuntimeUtils.m in Sources */,
+				4CF4490B2010681F0065611A /* MXRuntimeUtils+Extension.m in Sources */,
 				4CF448FF201067A90065611A /* main.m in Sources */,
 				4CF448F1201067A90065611A /* AppDelegate.m in Sources */,
 			);
