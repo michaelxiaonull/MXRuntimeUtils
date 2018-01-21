@@ -26,7 +26,7 @@ sizeValue:pointValue:edgeInsetsValue:stringValue:idValue:) argumemts:@[@1, @2.0f
 [NSValue valueWithCGPoint:CGPointMake(5, 5)], [NSValue valueWithUIEdgeInsets:UIEdgeInsetsMake(6, 6, 6, 6)], @"7", @"8"] returnValue:&returnValue];
 ```
 
-if you original method has a return value, please pass the pointer of your declared variable like this, **if you return type is OC object, note that you need declare an __autoreleasing variable like this __autoreleasing NSString *stringReturnValue, __autoreleasing id idReturnValue,** instead of strong OC object, the reason you can see in  **[memory management](http://www.cnblogs.com/flyFreeZn/p/4264220.html)**
+if your original method has a return value, please pass the pointer of your declared variable like this, **if you return type is OC object, note that you need declare an __autoreleasing variable like this __autoreleasing NSString *stringReturnValue, __autoreleasing id idReturnValue,** instead of strong OC object, the reason you can see in  **[memory management](http://www.cnblogs.com/flyFreeZn/p/4264220.html)**
  
 ``` Objective-C
 //int returnValue 
