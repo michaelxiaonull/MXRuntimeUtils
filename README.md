@@ -55,5 +55,5 @@ demo screenshot like this, but you may think a while, why I pass char value `'3'
  
 - Any returnValue
 
-   <img src="https://user-images.githubusercontent.com/17949980/35085567-3ba6a2b8-fc64-11e7-9f0d-d39c0bf3b097.png h="300"">
+   <img src="https://user-images.githubusercontent.com/17949980/35085567-3ba6a2b8-fc64-11e7-9f0d-d39c0bf3b097.png h="300">
 
